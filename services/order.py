@@ -6,7 +6,7 @@ User = get_user_model()
 
 
 def create_order(
-    tickets: list[Ticket],
+    tickets: list,
     username: str,
     date: str = None,
 ) -> Order:
